@@ -12,4 +12,9 @@ function count_vowels(kalimat){
     
     return jml;
 }
+
+document.write("kalimat 1 " + count_vowels("programmer"));
+document.write("<br>");
+document.write("kalimat 2 " + count_vowels("hmm..."));
+
 </script>
