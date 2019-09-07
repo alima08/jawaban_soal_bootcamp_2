@@ -1,7 +1,7 @@
 <script>
+
+function count_vowels(kalimat){
     var jml = 0;
-    
-    var kalimat = window.prompt("masukkan sebarang kalimat");
     var panjang = kalimat.length;
     
     for (var i=0; i<panjang; i++){
@@ -10,5 +10,6 @@
         } 
     }
     
-    document.write(jml);
+    return jml;
+}
 </script>
